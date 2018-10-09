@@ -1,0 +1,5 @@
+FROM ubuntu:trusty
+MAINTAINER suresh
+RUN apt-get update
+ADD hi.txt /hi.txt
+CMD ["/bin/bash/"]
